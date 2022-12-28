@@ -6,35 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BarberShop</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <header>
-        <a href="./index.html">
-            <img src="./img_barber/Logo.svg" alt="Logo_BarberShop">
-        </a>
+    <header class="header">
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about">О нас</a>
+        <nav class="navigation">
+            <a class="logo link" href="./index.html">
+                <img class="logo-img" src="./img_barber/Logo.svg" alt="Logo_BarberShop">
+            </a>
+
+            <ul class="nav-list list">
+                <li class="nav-list-item">
+                    <a class="nav-list-link link" href="#about">О нас</a>
                 </li>
+                <li class="nav-list-item">
+                    <a class="nav-list-link link" href="#prices">Услуги и цены</a>
+                </li class="nav-list-item">
                 <li>
-                    <a href="#prices">Услуги и цены</a>
+                    <a class="nav-list-link link" href="#masters">Мастера</a>
                 </li>
-                <li>
-                    <a href="#masters">Мастера</a>
-                </li>
-                <li>
-                    <a href="#contacts">Контакты</a>
+                <li class="nav-list-item">
+                    <a class="nav-list-link link" href="#contacts">Контакты</a>
                 </li>
             </ul>
         </nav>
 
-        <a href="tel:+380441111111">+38 044 111 11 11</a>
+        <a class="contact-number link" href="tel:+380441111111">+38 044 111 11 11</a>
 
-        <button type="button">онлайн-запись</button>
+        <button class="modal-btn" type="button">онлайн-запись</button>
     </header>
 
     <!-- Main -->
@@ -42,13 +48,13 @@
 
         
         <section class="hero">
-            <ul>
+            <ul class="list">
                 <li>
-                    <a href="#" target="_blank" rel="noopener noreferrer nofollow">Instagram</a>
+                    <a class="link" href="#" target="_blank" rel="noopener noreferrer nofollow">Instagram</a>
                 </li>
 
                 <li>
-                    <a href="#" target="_blank" rel="noopener noreferrer nofollow">Youtube</a>
+                    <a class="link" href="#" target="_blank" rel="noopener noreferrer nofollow">Youtube</a>
                 </li>
             </ul>
 
@@ -62,7 +68,7 @@
         
         
         <section id="about">
-            <ul>
+            <ul class="list">
                 <li>
                     <img src="./img_barber/about_bard.jpg" alt="Работа наших мастеров" width="270" height="445">
                 </li>
@@ -94,7 +100,7 @@
 
             <h2>Услуги и цены</h2>
 
-            <ul>
+            <ul class="list">
                 <li>
                     <p>Мужская стрижка</p>
                     <p>от 300 грн.</p>
@@ -113,7 +119,7 @@
                 </li>
             </ul>
 
-            <ul>
+            <ul class="list">
                 <li>
                     <p>Cтрижка у стажера</p>
                     <p>от 50 грн.</p>
@@ -136,7 +142,7 @@
         </section>
 
         <section class="school">
-            <ul>
+            <ul class="list">
                 <li>
                     <span>600</span>
                     <p>Довольных клиентов в день</p>
@@ -167,7 +173,7 @@
 
             <h2>Наши мастера</h2>
 
-            <ul>
+            <ul class="list">
                 <li>
                     <img src="./img_barber/masters/john.jpg" alt="Master" width="370" height="346">
                     <h3>John Smith</h3>
@@ -192,7 +198,7 @@
 
             <h2 hidden>Галерея</h2>
 
-            <ul>
+            <ul class="list">
                 <li>
                     <img src="./img_barber/galery/galeryfirst.jpg" alt="Galery" width="270" height="360">
                 </li>
@@ -217,12 +223,12 @@
 
              <address>
 
-                <ul>
+                <ul class="list">
                     <li>
-                        <a href="https://goo.gl/maps/uPyTjU1TFPF56omK7" target="_blank" rel="noopener noreferrer nofollow">ул. Васильковая, 7А Киев, 08132</a>
+                        <a class="link" href="https://goo.gl/maps/uPyTjU1TFPF56omK7" target="_blank" rel="noopener noreferrer nofollow">ул. Васильковая, 7А Киев, 08132</a>
                     </li>
                     <li>
-                        <a href="tel:+380441111111">+38 044 111 11 11</a>
+                        <a class="link" href="tel:+380441111111">+38 044 111 11 11</a>
                     </li>
                     <li>
                         <a href="mailto:barbershop@email.com">barbershop@email.com</a>
@@ -241,9 +247,9 @@
 
         <p>&copy; Copyright 2020 &#128526;</p>
 
-        <ul>
-            <li><a href="#" target="_blank" rel="noopener noreferrer nofollow">Instagram</a></li>
-            <li><a href="#" target="_blank" rel="noopener noreferrer nofollow">Youtube</a></li>
+        <ul class="list">
+            <li><a class="link" href="#" target="_blank" rel="noopener noreferrer nofollow">Instagram</a></li>
+            <li><a class="link" href="#" target="_blank" rel="noopener noreferrer nofollow">Youtube</a></li>
         </ul>
         
 
