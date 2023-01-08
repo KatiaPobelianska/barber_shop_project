@@ -329,14 +329,15 @@ letter-spacing: 0.02em;
 
 color: var(--primary-text-color-theme-dark);
 }
+
 .contacts-b {
 font-weight: 600;
 font-size: 11px;
 line-height: 1.36;
 letter-spacing: 0.1em;
 text-transform: uppercase;
-
 margin-bottom: 20px;
+
 color: var(--secondary-text-color-theme-dark);
 }
 .contacts-p {
